@@ -78,3 +78,7 @@ Route::get('student/delete/{id}', 'StudentController@delete');
 Route::get('orm1', 'OrmController@orm1');
 Route::get('orm2', 'OrmController@orm2');
 Route::get('orm3', 'OrmController@orm3');
+
+//blade learn
+Route::get('blade1', 'BladeController@blade1');
+
